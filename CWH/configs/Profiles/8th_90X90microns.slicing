@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SliceBuildConfig>
+    <DotsPermmX>102.4</DotsPermmX>
+    <DotsPermmY>76.8</DotsPermmY>
+    <XResolution>1024</XResolution>
+    <YResolution>768</YResolution>
+    <BlankTime>3400</BlankTime>
+    <PlatformTemp>75</PlatformTemp>
+    <ExportSVG>0</ExportSVG>
+    <Export>false</Export>
+    <ExportPNG>false</ExportPNG>
+    <XOffset>0</XOffset>
+    <YOffset>0</YOffset>
+    <Direction>Bottom_Up</Direction>
+    <LiftDistance>1.0</LiftDistance>
+    <SlideTiltValue>0</SlideTiltValue>
+    <AntiAliasing>false</AntiAliasing>
+    <UseMainLiftGCode>false</UseMainLiftGCode>
+    <AntiAliasingValue>1.5</AntiAliasingValue>
+    <LiftFeedRate>50.0</LiftFeedRate>
+    <LiftRetractRate>100.0</LiftRetractRate>
+    <ExportOption>ZIP</ExportOption>
+    <FlipX>false</FlipX>
+    <FlipY>false</FlipY>
+    <Notes>
+  </Notes>
+    <SelectedInk>Default</SelectedInk>
+    <MinTestExposure>500</MinTestExposure>
+    <TestExposureStep>200</TestExposureStep>
+    <InkConfig>
+        <Name>Default</Name>
+        <SliceHeight>0.0500000007450581</SliceHeight>
+        <LayerTime>6500</LayerTime>
+        <FirstLayerTime>22000</FirstLayerTime>
+        <NumberofBottomLayers>4</NumberofBottomLayers>
+        <ResinPriceL>0.0</ResinPriceL>
+    </InkConfig>
+</SliceBuildConfig>
