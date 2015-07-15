@@ -760,6 +760,9 @@ void setup()
   
 #ifdef PROJECTOR_CTRL
 PJSerial.begin(PJ_CMD_BAUDRATE);
+Serial.println("Projector On");
+PJSerial.write(PJ_CMD_ON,sizeof(PJ_CMD_ON));
+ClearToSend();
 #endif
   
   //Initialize Dir Pins
