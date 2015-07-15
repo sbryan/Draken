@@ -50,7 +50,7 @@ $ open /Volumes/Silicon\ Labs\ VCP\ Driver\ Install\ Disk/Silicon\ Labs\ VCP\ Dr
 # The following screenshot shows the SiLabs USB to UART driver installer
 ```
 
-|<img src='misc/SiLabsUSBtoUART-installer.png' width=620 height=438>|
+|<img src='../misc/SiLabsUSBtoUART-installer.png' width=620 height=438>|
 |:--------------------------:
 |Click the <button>**Continue**</button> and complete the driver installation|
 
