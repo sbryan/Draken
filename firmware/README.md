@@ -39,20 +39,20 @@ Read more about GCodes:
 
 2. Install the Silicon Labs USB-UART driver
 
-```bash
-$ cd ~/Downloads/
-$ unzip Mac_OSX_VCP_Driver.zip
-#Archive:  Mac_OSX_VCP_Driver.zip
-#  inflating: SiLabsUSBDriverDisk.dmg
-$ hdiutil attach ./SiLabsUSBDriverDisk.dmg
-#/dev/disk2                /Volumes/Silicon Labs VCP Driver Install Disk
-$ open /Volumes/Silicon\ Labs\ VCP\ Driver\ Install\ Disk/Silicon\ Labs\ VCP\ Driver.pkg
-# The following screenshot shows the SiLabs USB to UART driver installer
-```
+  ```bash
+  $ cd ~/Downloads/
+  $ unzip Mac_OSX_VCP_Driver.zip
+  #Archive:  Mac_OSX_VCP_Driver.zip
+  #  inflating: SiLabsUSBDriverDisk.dmg
+  $ hdiutil attach ./SiLabsUSBDriverDisk.dmg
+  #/dev/disk2                /Volumes/Silicon Labs VCP Driver Install Disk
+  $ open /Volumes/Silicon\ Labs\ VCP\ Driver\ Install\ Disk/Silicon\ Labs\ VCP\ Driver.pkg
+  # The following screenshot shows the SiLabs USB to UART driver installer
+  ```
 
-|<img src='../misc/SiLabsUSBtoUART-installer.png' width=620 height=438>|
-|:--------------------------:
-|Click the <button>**Continue**</button> and complete the driver installation|
+  |<img src='../misc/SiLabsUSBtoUART-installer.png' width=620 height=438>|
+  |:--------------------------:
+  |Click the <button>**Continue**</button> and complete the driver installation|
 
 3. Install the Draken Arduino 1.5.8 IDE
 4. Start the Draken Arduino 1.5.8 IDE
