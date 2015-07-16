@@ -28,15 +28,14 @@ Read more about GCodes:
 *_Copy from Forum post_*
 ### OS X
 1. Get the various files you will need
-   * Silicon Labs USB-UART driver for OS X:
+   * Silicon Labs USB-UART driver for OS X:<br>
      http://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip
-   * STM32F103XX board support files for Arduino 1.5.8:
+   * STM32F103XX board support files for Arduino 1.5.8:<br>
      https://github.com/MakerLabMe/MakerLabBoard/archive/master.zip
-   * Draken Arduino 1.5.8 IDE for OS X:
+   * Draken Arduino 1.5.8 IDE for OS X:<br>
      https://drive.google.com/file/d/0ByK3W2c482S4RWF2T3ktUF9hRzQ/view?usp=sharing
-   * Firmware sources for the Draken from one of the following places:
-      - git clone https://github.com/sbryan/Draken
-      - https://drive.google.com/file/d/0ByK3W2c482S4cnh4aUJ1Z2ViR1k/view?usp=sharing
+   * Firmware sources for the Draken:<br>
+     https://drive.google.com/file/d/0ByK3W2c482S4cnh4aUJ1Z2ViR1k/view?usp=sharing
 
    **NOTE**: For the rest of these instructions, we will assume all files have been saved in your `~/Downloads/` directory
 
@@ -116,6 +115,7 @@ Read more about GCodes:
   OR
 
   - From the command line:
+
     ```bash
     $ open -a Arduino1.5.8.app
     ```
