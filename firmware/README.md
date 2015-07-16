@@ -122,35 +122,35 @@ Read more about GCodes:
 
   |Initial window of the Arduino 1.5.8 IDE|
   |:--------------------------:
-  |<img src='../misc/misc/Arduino1.5.8_IDE_default.png'>|
+  |<img src='../misc/Arduino1.5.8_IDE_default.png'>|
 
 5. Check Board and Port settings
 
   |Select Tools -> Board -> MakerLab EARTH R1 (USB_To_Serial)|
   |:--------------------------:
-  |<img src='../misc/misc/Arduino1.5.8_IDE_board.png'>|
+  |<img src='../misc/Arduino1.5.8_IDE_board.png'>|
 
   |Select Tools -> Port -> /dev/tty.SLAB_USBtoUART|
   |:--------------------------:
-  |<img src='../misc/misc/Arduino1.5.8_IDE_port.png'>|
+  |<img src='../misc/Arduino1.5.8_IDE_port.png'>|
 
 6. Open the Draken firmware sketch
 
   |Select File -> Open and browse to ~/Downloads/DrakenFirmware/Sprinter.ino|
   |:--------------------------:
-  |<img src='../misc/misc/Arduino1.5.8_IDE_open.png'>|
+  |<img src='../misc/Arduino1.5.8_IDE_open.png'>|
 
 7. Verify the firmware
 
   |Select Sketch -> Verify|
   |:--------------------------:
-  |<img src='../misc/misc/Arduino1.5.8_IDE_verify.png'>|
+  |<img src='../misc/Arduino1.5.8_IDE_verify.png'>|
 
 8. Upload the firmware
 
   |Select File -> Upload|
   |:--------------------------:
-  |<img src='../misc/misc/Arduino1.5.8_IDE_upload.png'>|
+  |<img src='../misc/Arduino1.5.8_IDE_upload.png'>|
 
 9. Boot up the Draken and confirm it works
 
