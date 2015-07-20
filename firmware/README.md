@@ -19,8 +19,7 @@ The Draken firmware is a combination of code for Sprinter, grbl and marlin, acco
 
 Read more about GCodes:
 
-* [Descriptions of GCodes](http://linuxcnc.org/handbook/gcode/g-code.html)
-* [Reprap GCodes](http://objects.reprap.org/wiki/Mendel_User_Manual:_RepRapGCodes)
+* [Reprap GCodes](http://reprap.org/wiki/G-code)
 
 ## How to update the firmware on the Draken
 
