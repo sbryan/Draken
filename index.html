@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Draken : Firmware, profiles and documentation for the Draken 3D Printer.  Official Draken product info, docs and forums are at http://3dfacture.com/">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Draken</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/sbryan/Draken">View on GitHub</a>
+
+          <h1 id="project_title">Draken</h1>
+          <h2 id="project_tagline">Firmware, profiles and documentation for the Draken 3D Printer.  Official Draken product info, docs and forums are at http://3dfacture.com/</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/sbryan/Draken/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/sbryan/Draken/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="draken" class="anchor" href="#draken" aria-hidden="true"><span class="octicon octicon-link"></span></a>Draken</h1>
+
+<p>Firmware, profiles and documentation for the Draken 3D Printer.  Official Draken product info, docs and forums are at <a href="http://3dfacture.com/">http://3dfacture.com/</a></p>
+
+<h2>
+<a id="firmware" class="anchor" href="#firmware" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>firmware/</code>
+</h2>
+
+<p>This directory contains the source code for the Draken controller.  It is intended to be uploaded as an Arduino sketch, using the 1.5.8 version of the Arduino IDE, with support added for the STM32F103XX cortex-m3 arm cpu.  See <a href="https://github.com/MakerLabMe/STM32_Arduino_Cores">https://github.com/MakerLabMe/STM32_Arduino_Cores</a> for the files and instructions on how to add this support to an existing Arduino IDE install.</p>
+
+<h2>
+<a id="cwhconfigs" class="anchor" href="#cwhconfigs" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>CWH/configs/</code>
+</h2>
+
+<p>The Draken has 8 projector mounting positions, each coorelating to a different X,Y resolution setting.  So this essentially results in 8 different "printers" in the CWH configuration system.</p>
+
+<p>Below are the 8 different resolutions currently configured, mapped to the projector mounting slot, where 1 == top most, and 8 == bottom most.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Postion</th>
+<th align="center">XY Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">37µm</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">43µm</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">50µm</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">61µm</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">70µm</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">75µm</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">82µm</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">90µm</td>
+</tr>
+</tbody>
+</table>
+
+<p>Currently, all the <code>*.slicing</code> files are identical, as there is a bug in CWH that will only open a <code>*.slicing</code> file that matches the <code>*.machine</code> name specified in the <code>*.printer</code> file.</p>
+
+<p>When this bug is fixed (CWH issue #46: <a href="https://goo.gl/CNhZd4">https://goo.gl/CNhZd4</a>), then we should be able to revert to using a single <code>*.slicing</code> file.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Draken maintained by <a href="https://github.com/sbryan">sbryan</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-65434601-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
