@@ -24,7 +24,37 @@ Read more about GCodes:
 ## How to update the firmware on the Draken
 
 ### Windows
-*_Copy from Forum post_*
+These instructions were copied from:
+http://3dfacture.com/help/index.php?p=/discussion/161/draken-s-firmware-and-how-to-install-it
+
+1. Get the various files you will need
+   * Draken Version of Arduino IDE:<br>
+     https://drive.google.com/file/d/0Bx-KevVanX-hdEd3Qlc5YndrZFk/view?usp=sharing
+   * Firmware sources for the Draken:<br>
+     https://drive.google.com/file/d/0ByK3W2c482S4cnh4aUJ1Z2ViR1k/view?usp=sharing
+
+2. Unzip the folders
+
+3. In the unzipped folder arduino-1.5.8_for_Draken in the sub-directory arduino-1.5.8 you need to launch arduino.exe
+
+4. You need to click File > Open then fo to the unzipped folder Draken Firmware and into sub-directory Sprinter. Sprinter.ino will be listed in the file picker. Click on Sprinter.ino and then Open.
+
+  |<img src='../misc/sprinter_arduino_file_menu.png' width=401 height=480>|
+  
+5. A new window will open containing the Updated Draken Firmware.
+
+6. Now you need to click Tools > Board select "MakerLab Earth R1(USB_To Serial)"
+
+  |<img src='../misc/sprinter_arduino_board.png' width=360 height=480>|
+  
+7. Now you need to click Tools > Port select "COM3 (MakerLab SUN Prototype)"
+
+  |<img src='../misc/sprinter_arduino_port.png' width=457 height=480>|
+  
+8. Now you need to click File > Upload.
+
+9. Please wait until process completes and you are done.
+  
 ### OS X
 1. Get the various files you will need
    * Silicon Labs USB-UART driver for OS X:<br>
